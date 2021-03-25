@@ -7,14 +7,14 @@
   display: grid;
   grid-gap: 30px;
 
-  grid-template-rows: 1fr 2fr 3fr 1fr;
+  grid-template-rows: 1fr 2fr 4fr 1fr;
   grid-template-columns: repeat(3, 3fr) 2fr;
+
 }
 
 .container > * {
   background-color: red;
-  color: white;
-  /* margin: auto; */
+  color: white;  
 }
 
 .header {
