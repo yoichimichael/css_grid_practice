@@ -1,0 +1,8 @@
+.container {
+  background-color: #aaa;
+  width: 75vw;
+  height: 75vw;
+  margin: 30px auto;
+
+  display: grid;
+}
