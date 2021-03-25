@@ -1,8 +1,38 @@
 .container {
-  background-color: #aaa;
+  background-color: #ddd;
   width: 75vw;
   height: 75vw;
   margin: 30px auto;
 
   display: grid;
+  grid-gap: 30px;
+
+  grid-template-rows: 1fr 2fr 3fr 1fr;
+  grid-template-columns: repeat(3, 3fr) 2fr;
+}
+
+.container > * {
+  background-color: red;
+  color: white;
+  /* margin: auto; */
+}
+
+.header {
+  grid-area: 1 / 1 / 2 / -1;
+}
+
+.box_small {
+
+}
+
+.sidebar {
+  grid-area: 2 / 4 / 4 / -1;
+}
+
+.main {
+  grid-area: 3 / 1 / 4 / -2;
+}
+
+.footer {
+  grid-area: 4 / 1 / -1 / -1;
 }
